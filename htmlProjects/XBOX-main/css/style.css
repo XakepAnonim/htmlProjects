@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.body{
+    font-family: 'Roboto', sans-serif;
+    color: #FFF;
+}
+
+.body1{
+    font-family: 'Roboto', sans-serif;
+    color: #435766;
+}
+
+/* navbar */
+
+.navbar__nav{
+    width: 1400px;
+    height: 60px;
+    background-color: #373A3C;
+}
+
+.navbar__menu{
+    display: flex;
+    align-items: center;
+    padding-top: 11px;
+    padding-left: 165px;
+}
+
+.navbar__pic{
+    margin-right: 287px;
+}
+
+.navbar__item{
+    margin-right: 26px;
+
+}
+
+.navbar_item{
+    margin-right: 48px;
+}
+
+.navbar_form{
+    width: 209.795px;
+    height: 38px;
+    margin-right: 29px;
+    border: 1px solid #CCC;
+    background: #FFF;
+}
+
+.Search{
+    margin-top: 8px;
+    margin-left: 15.98px;
+    font-size: 16px;
+    border: none;
+}
+
+.Arrow{
+    margin-left: 15px;
+}
+
+.user{
+    margin-right: 9px;
+}
+
+/* Games */
+
+.Games{
+    width: 1400px;
+    height: 865px;
+    background: radial-gradient(100% 100% at 50% 0%, #686C6F 0%, #373A3C 100%);
+}
+
+.XboxIcon{
+    margin-top: 64px;
+    margin-left: 669px;
+}
+
+.Games__title{
+    font-size: 48px;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-left: 563px;
+}
+
+.Games__text{
+    font-size: 36px;
+    font-weight: 400;
+    margin-left: 501px;
+}
+
+/* Cards */
+
+.Cards{
+    display: flex;
+    text-align: center;
+    margin-left: 162px;
+    margin-top: 44px;
+}
+
+.Card1{
+    width: 320px;
+    height: 420px;
+    border-radius: 4px;
+    border: 1px solid #8DD83D;
+    background: #FFF;
+}
+
+.Card2{
+    width: 320px;
+    height: 420px;
+    border-radius: 4px;
+    border: 1px solid #8DD83D;
+    background: #FFF;
+}
+
+.Card3{
+    width: 320px;
+    height: 420px;
+    border-radius: 4px;
+    border: 1px solid #8DD83D;
+    background: #FFF;
+}
+
+/* Card1 */
+
+.Card1__info{
+    margin-top: 16px;
+    text-align: left;
+    margin-left: 22px;
+}
+
+.Card1__title{
+    font-size: 16px;
+}
+
+.Card1__text{
+    margin-top: 13px;
+    font-size: 24px;
+}
+
+/* Card2 */
+
+.Card2{
+    margin-left: 65px;
+}
+
+.Card2__info{
+    margin-top: 16px;
+    text-align: left;
+    margin-left: 22px;
+}
+
+.Card2__title{
+    font-size: 16px;
+}
+
+.Card2__text{
+    margin-top: 13px;
+    font-size: 24px;
+    margin-right: 49.2px;
+}
+
+/* Card3 */
+
+.Gold{
+    margin-top: 33px;
+}
+
+.Card3{
+    margin-left: 55px;
+}
+
+.Card3__pic{
+    width: 318px;
+    height: 180px;
+    background: #FAFAFA;
+}
+
+.Card3__info{
+    margin-top: 16px;
+    text-align: left;
+    margin-left: 22px;
+}
+
+.Card3__title{
+    font-size: 16px;
+}
+
+.Card3__text{
+    margin-top: 13px;
+    font-size: 24px;
+}
+
+.Cards__buttons{
+    width: 278px;
+    height: 60px;
+    background: #8DD83D;
+    margin-top: 40px;
+    margin-left: 21px;
+}
+
+.Card__button{
+    padding-top: 20px;
+}
+
+/* Lab */
+
+.Lab{
+    width: 1400px;
+    height: 480px;
+    background: url(../img/Rectangle.png);
+}
+
+.Lab__title{
+    font-size: 48px;
+    padding-top: 114px;
+    padding-left: 167px;
+}
+
+.Lab__text{
+    font-size: 24px;
+    margin-top: 10px;
+    padding-left: 167px;
+    width: 533px;
+}
+
+.Lab__buttons{
+    display: flex;
+}
+
+.Lab__button{
+    width: 207px;
+    height: 60px;
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    margin-top: 39px;
+    margin-left: 166px;
+}
+
+.Lab__Button{
+    width: 278px;
+    height: 60px;
+    background: #8DD83D;
+    margin-top: 39px;
+    margin-left: 15px;
+}
+
+.button{
+    margin-left: 52px;
+    margin-top: 20px;
+}
+
+.Button{
+    margin-top: 19px;
+    margin-left: 23px;
+}
+
+/* end */
+
+.Footer{
+    width: 1400px;
+    height: 395px;
+    background: #373A3C;
+}
+
+.one{
+    display: flex;
+    padding-top: 58px;
+    margin-left: 165px;
+}
+
+.one2{
+    padding-left: 288px;
+}
+
+.follow{
+    padding-left: 270px;
+}
+
+.end__text{
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.end__title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #7DD42F;
+    margin-bottom: 35px;
+}
+
+.follow__title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #7DD42F;
+    text-align: center;
+}
+
+.social{
+    padding-top: 29px;
+}
+
+/* hr */
+
+.hr{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    opacity: 0.35;
+}
+
+.hr__info{
+    display: flex;
+    margin-top: 19px;
+    margin-left: 100px;
+    margin-right: 113px;
+    justify-content: space-between;
+}
+
+.hr__title{
+    font-size: 16px;
+}
+
+/* Reg */
+
+.body2{
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 13px;
+}
+
+.Registration{
+    width: 300px;
+    height: 433px;
+}
+
+.Reg__info{
+    fill: #FDFDFF;
+    filter: drop-shadow(0px 0px 30px rgba(0, 29, 108, 0.10));
+}
+
+.Reg{
+    color: #979797;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.border{
+    width: 220px;
+    height: 40px;
+    background: #FFF;
+    box-shadow: 0px 0px 5px 2px rgba(0, 29, 108, 0.07);
+    margin-top: 15px;
+    margin-left: 40px;x
+}
+
+.info{
+    margin-top: 13px;
+    margin-left: 16px;
+    border: none;
+}
+
+.Botton__send{
+    width: 220px;
+    height: 50px;
+    background: #8DD83D;
+    margin-top: 20px;
+    margin-left: 40px;
+    border: none;
+}
+
+.Send{
+    color: #FDFDFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.LogIn{
+    margin-top: 16px;
+    margin-left: 132px;
+}
