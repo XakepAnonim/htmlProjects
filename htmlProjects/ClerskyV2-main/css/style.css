@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.body{
+    font-family: Noto sans;
+}
+
+.title{
+   font-size: 48px;
+   font-weight: 600;
+}
+
+.title_w{
+    color: #FBFAF7;
+}
+
+.text{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.text_w{
+    color: #FBFAF7;
+}
+
+/* header */
+
+.header{
+    background-color: #163A24;
+}
+
+.header__wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__menu{
+    display: flex;
+    align-items: center;
+}
+
+.header__item a{
+    color: #FBFAF7;
+    FS: 16px;
+    font-weight: 400;
+}
+
+.header__item{
+    margin-left: 24px;
+}
+
+.header__item_g{
+    background-color: #198c36;
+    padding: 15px 25px;
+    border-radius: 48px;
+}
+
+/* intro */
+
+.intro{
+    background-color: #163A24;
+}
+
+.intro__wrap{
+    display: flex;
+}
+
+.intro__texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro__title{
+    margin-bottom: 18px;
+}
+
+/* hr */
+
+.hr__block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hr__texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 375px;
+    gap: 27px;
+}
+
+/* hq */
+
+.hq{
+    background-color: #163A24;
+    padding: 66px 0 120px;
+}
+
+.hq__title{
+    text-align: center;
+    margin-bottom: 67px;
+}
+
+.hq__row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hq__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hq__text{
+    text-align: center;
+    margin-top: 30px;   
+}
+
+
+
+/* bubble */
+
+.bubble{
+    margin-top: 100px;
+}
+
+.bubble__row{
+    display: flex;
+    align-items: center;
+    padding: 0px 14.672px 17.063px 0px;
+    justify-content: space-between;
+}
+
+.bubble__title{
+    font-family: Recoleta;
+}
+
+.bubble__text{
+    width: 338px;
+    margin-top: 27px;
+}
+
+/* humans */
+
+.humans{
+    background: #F2EFE6;
+}
+
+.humans__row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.humans__text{
+    margin-top: 27px;
+    width: 800px;
+    font-weight: 600;
+}
+
+.humans__title{
+    font-family: Recoleta;
+}
+
+/* interest */
+
+.interest__text{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.info{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 150px;
+    gap: 40px;
+
+}
+
+.info__title{
+    padding: 15px 0px;
+}
+.info__text{
+    padding: 10px 0px;
+}
+
+.one{
+    width: 353px;
+    height: 393px;
+    border-radius: 15px;
+    background: #FBFAF7;
+    box-shadow: 5px 5px 20px 0px #E9E4D5;
+    padding: 50px 40px 50px 40px;
+    
+}
+.two{
+    width: 353px;
+    height: 430px;
+    border-radius: 15px;
+    background: #FBFAF7;
+    box-shadow: 5px 5px 20px 0px #E9E4D5;
+    padding: 50px 40px 50px 40px;
+}
+
+/* easy */
+
+.str{
+    background: #F2EFE6;
+}
+
+.easy__texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+    padding: 120px 0px;
+}
+
+.easy__text{
+    margin-top: 26px;
+}
+
+.easy__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* forms */
+
+.singin__wrap{
+    display: flex;
+}
+
+.singin__block{
+    padding: 48px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.singin__sinup{
+    display: flex;
+}
+
+.singin__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.singin__title{
+    font-size: 20px;
+    font-weight: 500;
+    color: #111;
+    margin-bottom: 35px;
+}
+
+.singin__google{
+    border-radius: 8px;
+    border: 1px solid #455EED;
+    padding: 7.5px 108.29px 8px 108.71px;
+    color: #455EED;
+    background: #FBFAF7;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.singin__input{
+    margin-top: 24px;
+    border-radius: 8px;
+    background: #F6F6F6;
+    padding: 7.5px 9px 10px 9px;
+    width: 100%;
+    margin-bottom: 16px;
+    border: none;
+}
+
+.singin__enter{
+    border-radius: 8px;
+    border: 1px solid #A7A5A5;
+    padding: 7.5px 108.29px 8px 108.71px;
+    color: #fff;
+    background: #A7A5A5;
+    margin-bottom: 30px;
+    width: 100%;
+}

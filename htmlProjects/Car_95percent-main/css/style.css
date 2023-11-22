@@ -1,0 +1,271 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.body{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.body1{
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+}
+
+.text{
+    font-size: 18px;
+}
+
+.title{
+    font-size: 48px;
+}
+
+.lol{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.color{
+    color: #B7B7B7;
+}
+
+/* navbar */
+
+.start{
+    height: 750px;
+    background-image: url(../img/road-g9875459d1_1920\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.navbar__info{
+    display: flex;
+    gap: 35px;
+}
+
+.hr{
+    height: 2px;
+    background: #FFF;
+}
+
+.ru{
+    color: #B7B7B7;
+}
+
+.navbar__title{
+    padding-top: 217px;
+    padding-right: 240px;
+    width: 791px;   
+}
+
+.button{
+    background: #DB2512;
+    width: 198px;
+    height: 50px;
+    margin-top: 64px;
+    margin-left: 240px;
+}
+
+.button1{
+    background: #DB2512;
+    width: 198px;
+    height: 50px;
+    margin-right: 1259px;
+    margin-top: 37px;
+}
+
+/* contact */
+
+.contact{
+    display: flex;
+    padding-top: 97px;
+    padding-left: 240px;
+    padding-right: 239px;
+}
+
+.contacts{
+    width: 320px;
+    height: 180px;
+    background: #FFF;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+.calls{
+    padding-left: 39px;
+}
+
+.call{
+    padding-top: 39px;
+}
+
+.call_text{
+    padding-top: 21px;
+    font-weight: 700;
+}
+
+.call_text2{
+    padding-top: 15px;
+}
+
+/* services */
+
+.services__info{
+    padding-top: 197px;
+    padding-left: 240px;
+}
+
+.services_title{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.fak{
+    text-decoration: underline;
+}
+
+.plus{
+    width: 386px;
+    height: 500px;
+    background-image: url(../img/diagnostic.jpg);
+}
+
+.services_pic{
+    padding-top: 60px;
+    display: flex;
+    padding-left: 240px;
+    padding-right: 239px;
+    gap: 21px;
+}
+
+.fbj{
+    padding-top: 21px;
+    padding-bottom: 98px;
+}
+
+.understand{
+    width: 1680px;
+    height: 665px;
+    background: #171616;
+    display: flex;
+}
+
+.dsa{
+    font-size: 30px;
+    margin-bottom: 42px;
+}
+
+.under{
+    width: 400px;
+    padding-top: 117px;
+    padding-left: 239px;
+}
+
+.one{
+    margin-bottom: 48px;
+}
+
+.under_pic{
+    width: 513px;
+    height: 342px;
+    padding-top: 153px;
+    padding-right: 240px;
+}
+
+/* fast */
+
+.fast__wrap{
+    padding-left: 239px;
+    padding-top: 99px;
+}
+
+.fast__title{
+    font-size: 148px;
+    font-weight: 900;
+    padding-left: 113px;
+}
+
+.fast__text{
+    font-size: 40px;
+    padding-left: 358px;
+}
+
+.fast_contact{
+    display: flex;
+    padding-top: 92px;
+    padding-right: 240px;
+    padding-bottom: 99px;
+}
+
+.fast_contacts{
+    width: 300px;
+    height: 110px;
+    background: #FFF;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+.your{
+    padding-left: 20px;
+}
+
+.bring{
+    padding-left: 37px;
+}
+
+.get{
+    padding-left: 27px;
+}
+
+/* support */
+
+.support{
+    width: 1679px;
+    height: 665px;
+    background: #171616;
+}
+
+.support_box{
+    padding-left: 231px;
+    padding-top: 97px;
+    padding-right: 1008px;
+}
+
+/* form */
+
+.one{
+    display: flex;
+    padding-top: 46.44px;
+}
+
+.two{
+    display: flex;
+}
+
+.form{
+    border: none;
+    background: #171616;
+}
+
+.message{
+    padding-top: 54px;
+    padding-bottom: 109.01px;
+}
+
+.support_button{
+    margin-right: 2000px;
+}
+
+/* footer */
+
+.footer_end{
+    display: flex;
+    padding: 66px 242px 61px 231px;
+}

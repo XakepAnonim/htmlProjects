@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.title{
+    color: #01996D;
+    font-family: 'Georgia', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.title_b{
+    color: #000;
+    font-family: 'Georgia', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.title_w{
+    color: #fff;
+    font-family: 'Georgia', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.text{
+    color: #484848;
+    font-family: 'Georgia', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.text_w{
+    color: #fff;
+    font-family: 'Georgia', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* 01 */
+
+.header__wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* 02 */
+
+.intro{
+    background: url(../img/BG.png);
+    height: 895px;
+}
+
+.header__texts{
+    padding: 175px 1050px 400px 275px;
+}
+
+.header__text{
+    margin-top: 30px;
+}
+
+.header__block{
+    margin-left: 72px;
+    display: flex;
+}
+
+.header__border{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    margin-top: 48px;
+    border-radius: 2px;
+    border: 1px solid #01996D;
+    background: #01996D;
+}
+
+/* 03 */
+
+.container{
+    width: 1413px;
+    height: 1182px;
+    padding: 78px 232px 254px 275px;
+}
+
+.work{
+    margin-top: 28px;
+    display: flex;
+    height: 78px;
+    align-items: center;
+}
+
+.work__title{
+    width: 900px;
+}
+
+.work__text{
+    padding-right: 254px;
+    width: 1200px;
+}
+
+.work__img{
+    display: flex;
+    margin-top: 187px;
+}
+
+.one{
+    width: 390px;
+    height: 802px;
+}
+
+.img__title{
+    text-align: center;
+}
+
+.img__text{
+    margin-top: 37px;
+}
+
+.work__pic{
+    margin-top: 60px;
+}
+
+.two{
+    width: 392px;
+    height: 807px;
+    margin: 0 30px;
+}
+
+.three{
+    width: 441px;
+    height: 802px;
+}
+
+/* 04 */
+
+.video__block{
+    background: #245852;
+}
